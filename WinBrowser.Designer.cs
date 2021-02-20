@@ -55,8 +55,9 @@ namespace WinBrowser
             this.pnlBrowserTop.Controls.Add(this.pnlFlowLayoutBrowserNav);
             this.pnlBrowserTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlBrowserTop.Location = new System.Drawing.Point(0, 0);
+            this.pnlBrowserTop.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnlBrowserTop.Name = "pnlBrowserTop";
-            this.pnlBrowserTop.Size = new System.Drawing.Size(1202, 28);
+            this.pnlBrowserTop.Size = new System.Drawing.Size(1803, 43);
             this.pnlBrowserTop.TabIndex = 0;
             // 
             // pnlFlowLayoutBrowserWindowButtons
@@ -66,18 +67,20 @@ namespace WinBrowser
             this.pnlFlowLayoutBrowserWindowButtons.Controls.Add(this.btnMinimize);
             this.pnlFlowLayoutBrowserWindowButtons.Controls.Add(this.btnAbout);
             this.pnlFlowLayoutBrowserWindowButtons.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pnlFlowLayoutBrowserWindowButtons.Location = new System.Drawing.Point(1059, 0);
+            this.pnlFlowLayoutBrowserWindowButtons.Location = new System.Drawing.Point(1589, 0);
+            this.pnlFlowLayoutBrowserWindowButtons.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnlFlowLayoutBrowserWindowButtons.Name = "pnlFlowLayoutBrowserWindowButtons";
             this.pnlFlowLayoutBrowserWindowButtons.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.pnlFlowLayoutBrowserWindowButtons.Size = new System.Drawing.Size(143, 28);
+            this.pnlFlowLayoutBrowserWindowButtons.Size = new System.Drawing.Size(214, 43);
             this.pnlFlowLayoutBrowserWindowButtons.TabIndex = 0;
             // 
             // btnClose
             // 
             this.btnClose.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.btnClose.Location = new System.Drawing.Point(118, 3);
+            this.btnClose.Location = new System.Drawing.Point(177, 5);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(22, 22);
+            this.btnClose.Size = new System.Drawing.Size(33, 34);
             this.btnClose.TabIndex = 5;
             this.btnClose.Text = "X";
             this.btnClose.UseVisualStyleBackColor = false;
@@ -87,9 +90,10 @@ namespace WinBrowser
             // btnMaximize
             // 
             this.btnMaximize.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.btnMaximize.Location = new System.Drawing.Point(90, 3);
+            this.btnMaximize.Location = new System.Drawing.Point(136, 5);
+            this.btnMaximize.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnMaximize.Name = "btnMaximize";
-            this.btnMaximize.Size = new System.Drawing.Size(22, 22);
+            this.btnMaximize.Size = new System.Drawing.Size(33, 34);
             this.btnMaximize.TabIndex = 6;
             this.btnMaximize.Text = "M";
             this.btnMaximize.UseVisualStyleBackColor = false;
@@ -98,9 +102,10 @@ namespace WinBrowser
             // btnMinimize
             // 
             this.btnMinimize.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.btnMinimize.Location = new System.Drawing.Point(62, 3);
+            this.btnMinimize.Location = new System.Drawing.Point(95, 5);
+            this.btnMinimize.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnMinimize.Name = "btnMinimize";
-            this.btnMinimize.Size = new System.Drawing.Size(22, 22);
+            this.btnMinimize.Size = new System.Drawing.Size(33, 34);
             this.btnMinimize.TabIndex = 7;
             this.btnMinimize.Text = "_";
             this.btnMinimize.UseVisualStyleBackColor = false;
@@ -108,9 +113,10 @@ namespace WinBrowser
             // 
             // btnAbout
             // 
-            this.btnAbout.Location = new System.Drawing.Point(4, 3);
+            this.btnAbout.Location = new System.Drawing.Point(9, 5);
+            this.btnAbout.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnAbout.Name = "btnAbout";
-            this.btnAbout.Size = new System.Drawing.Size(52, 22);
+            this.btnAbout.Size = new System.Drawing.Size(78, 34);
             this.btnAbout.TabIndex = 5;
             this.btnAbout.Text = "About";
             this.btnAbout.UseVisualStyleBackColor = true;
@@ -126,40 +132,44 @@ namespace WinBrowser
             this.pnlFlowLayoutBrowserNav.Controls.Add(this.txtSearchBox);
             this.pnlFlowLayoutBrowserNav.Controls.Add(this.btnSeach);
             this.pnlFlowLayoutBrowserNav.Location = new System.Drawing.Point(0, 0);
+            this.pnlFlowLayoutBrowserNav.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnlFlowLayoutBrowserNav.Name = "pnlFlowLayoutBrowserNav";
-            this.pnlFlowLayoutBrowserNav.Size = new System.Drawing.Size(874, 28);
+            this.pnlFlowLayoutBrowserNav.Size = new System.Drawing.Size(1311, 43);
             this.pnlFlowLayoutBrowserNav.TabIndex = 1;
             // 
             // lblSearchEngine
             // 
             this.lblSearchEngine.AutoSize = true;
-            this.lblSearchEngine.Location = new System.Drawing.Point(3, 0);
+            this.lblSearchEngine.Location = new System.Drawing.Point(4, 0);
+            this.lblSearchEngine.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblSearchEngine.Name = "lblSearchEngine";
-            this.lblSearchEngine.Padding = new System.Windows.Forms.Padding(2, 6, 0, 0);
-            this.lblSearchEngine.Size = new System.Drawing.Size(85, 19);
+            this.lblSearchEngine.Padding = new System.Windows.Forms.Padding(3, 9, 0, 0);
+            this.lblSearchEngine.Size = new System.Drawing.Size(125, 29);
             this.lblSearchEngine.TabIndex = 0;
             this.lblSearchEngine.Text = "Search Engine :";
             // 
             // cmbSearchEngine
             // 
             this.cmbSearchEngine.FormattingEnabled = true;
-            this.cmbSearchEngine.ItemHeight = 13;
+            this.cmbSearchEngine.ItemHeight = 20;
             this.cmbSearchEngine.Items.AddRange(new object[] {
             "Google",
             "Bing",
             "Yahoo",
             "DuckDuckGo"});
-            this.cmbSearchEngine.Location = new System.Drawing.Point(94, 3);
+            this.cmbSearchEngine.Location = new System.Drawing.Point(137, 5);
+            this.cmbSearchEngine.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cmbSearchEngine.Name = "cmbSearchEngine";
-            this.cmbSearchEngine.Size = new System.Drawing.Size(88, 21);
+            this.cmbSearchEngine.Size = new System.Drawing.Size(130, 28);
             this.cmbSearchEngine.TabIndex = 1;
             this.cmbSearchEngine.Text = "DuckDuckGo";
             // 
             // btnPrevious
             // 
-            this.btnPrevious.Location = new System.Drawing.Point(188, 3);
+            this.btnPrevious.Location = new System.Drawing.Point(275, 5);
+            this.btnPrevious.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnPrevious.Name = "btnPrevious";
-            this.btnPrevious.Size = new System.Drawing.Size(35, 22);
+            this.btnPrevious.Size = new System.Drawing.Size(52, 34);
             this.btnPrevious.TabIndex = 2;
             this.btnPrevious.Text = "<<";
             this.btnPrevious.UseVisualStyleBackColor = true;
@@ -167,9 +177,10 @@ namespace WinBrowser
             // 
             // btnNext
             // 
-            this.btnNext.Location = new System.Drawing.Point(229, 3);
+            this.btnNext.Location = new System.Drawing.Point(335, 5);
+            this.btnNext.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnNext.Name = "btnNext";
-            this.btnNext.Size = new System.Drawing.Size(35, 22);
+            this.btnNext.Size = new System.Drawing.Size(52, 34);
             this.btnNext.TabIndex = 3;
             this.btnNext.Text = ">>";
             this.btnNext.UseVisualStyleBackColor = true;
@@ -179,18 +190,19 @@ namespace WinBrowser
             // txtSearchBox
             // 
             this.txtSearchBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtSearchBox.Location = new System.Drawing.Point(270, 4);
-            this.txtSearchBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 3);
+            this.txtSearchBox.Location = new System.Drawing.Point(395, 6);
+            this.txtSearchBox.Margin = new System.Windows.Forms.Padding(4, 6, 4, 5);
             this.txtSearchBox.Name = "txtSearchBox";
-            this.txtSearchBox.Size = new System.Drawing.Size(540, 20);
+            this.txtSearchBox.Size = new System.Drawing.Size(591, 26);
             this.txtSearchBox.TabIndex = 0;
             this.txtSearchBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtSearchBox_KeyDown);
             // 
             // btnSeach
             // 
-            this.btnSeach.Location = new System.Drawing.Point(816, 3);
+            this.btnSeach.Location = new System.Drawing.Point(994, 5);
+            this.btnSeach.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnSeach.Name = "btnSeach";
-            this.btnSeach.Size = new System.Drawing.Size(52, 22);
+            this.btnSeach.Size = new System.Drawing.Size(78, 34);
             this.btnSeach.TabIndex = 4;
             this.btnSeach.Text = "Search";
             this.btnSeach.UseVisualStyleBackColor = true;
@@ -199,22 +211,21 @@ namespace WinBrowser
             // pnlBrowser
             // 
             this.pnlBrowser.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlBrowser.Location = new System.Drawing.Point(0, 28);
+            this.pnlBrowser.Location = new System.Drawing.Point(0, 43);
+            this.pnlBrowser.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnlBrowser.Name = "pnlBrowser";
-            this.pnlBrowser.Size = new System.Drawing.Size(1202, 556);
+            this.pnlBrowser.Size = new System.Drawing.Size(1803, 855);
             this.pnlBrowser.TabIndex = 1;
             // 
             // WinBrowser
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(1202, 584);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.ClientSize = new System.Drawing.Size(1803, 898);
             this.Controls.Add(this.pnlBrowser);
             this.Controls.Add(this.pnlBrowserTop);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "WinBrowser";
-            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "WinBrowser";
             this.pnlBrowserTop.ResumeLayout(false);
